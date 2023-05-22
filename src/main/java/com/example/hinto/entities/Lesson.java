@@ -11,6 +11,7 @@ public class Lesson {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+
     private String title;
 
     private LocalDateTime date1;
